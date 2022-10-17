@@ -1,0 +1,82 @@
+body{
+    background-image: url("/App Mata Mosquito/Imagens/fundo.jpg");
+}
+
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+}
+
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.barata1{
+    width: 80px;
+    height: 80px;
+}
+
+.barata2 {
+    width: 100px;
+    height: 100px;
+}
+
+.barata3 {
+    width: 120px;
+    height: 120px;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+/*Fim de Jogo*/
+
+.fim_de_jogo {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+#botao-jogo {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #83320f;
+    border: 3px solid #83320f;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#perdeu{
+    width: 90%;
+    height: 70vh;
+    
+}
